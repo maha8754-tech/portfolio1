@@ -1,0 +1,665 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+  }
+  
+  /* body {
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    padding: 2rem;
+  } */
+  
+  /* .wrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  } */
+  
+  /* .responsive-box {
+    margin:auto;
+    width: 90%;
+    max-width: 1300px;
+    min-width: 100px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    text-align: center;
+  }*/
+
+header{
+    display:grid;
+    /* width: 100%; */
+    /* text-align: ; */
+    
+}
+  
+#container{
+    display:flex;
+    /* position: relative; */
+    width: 100%;
+    max-width: 1400px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 0 auto; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 1rem;
+    gap: 1rem;
+    /* grid-template-columns: 30% 50% 20%; */
+}
+
+/* #react{
+    color: deepskyblue;
+    //text-align: center;
+    text-align: center;
+
+}*/
+
+.logo{
+    /* position:; */
+    display: grid;
+    /* display: grid; */
+    width: 60%;
+    max-width: 230px;
+    /* width: 180px; */
+    height: auto;
+    align-self: center;
+}
+
+input#search-box{
+    display: grid;
+    /* display: flex; */
+    /* display: grid; */
+    width: 60%;
+    max-width: 550px;
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* width: 550px; */
+    /* max-width: 600px; */
+    height: 50%;
+    max-height: 50px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    background-color: rgb(236, 238, 239);
+    border-radius: 10px;
+    border: 0;
+    padding-right: 3rem;
+    /* top:7rem; */
+    /* right: 21rem; */
+    align-self: center;
+    
+}
+
+#search-box::placeholder{
+    display: grid;
+    font-size: medium;
+    color: rgb(120, 134, 153);
+    font: 1em sans-serif;
+}
+
+.search-icon{
+    display: grid;
+    position: relative;
+    top:2.3rem;
+    left: 34.5rem;
+    /* margin-top: 2rem; */
+    /* margin-right: -10rem; */
+}
+
+#H{
+    color:deeppink;
+}
+
+.pageMode{
+    display: none;
+    display: grid;
+    width: 40%;
+    max-width: 3rem;
+    /* margin: ; */
+    /* position: absolute; */
+    /* top: 7rem; */
+    /* right: 61rem; */
+    /* width: 3rem; */
+    height: 3rem;
+    border-radius: 35px;
+    background-color: rgb(236, 238, 239);
+    align-self: center;
+    margin-left:2rem;
+}
+
+/* .pageMode:hover{
+     background-color: rgb(12, 12, 12); 
+} */
+.darkOlight{
+    display: grid;
+    width: 66px;
+    /* height: 50%; */
+    height: 52px;
+    border-radius: 45px;
+    margin-right: -2rem;
+    margin-top: -0.75rem;
+    transition: transform 1s ease-in;
+}
+
+.darkOlight:hover{
+    transform:rotate(180deg);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.login{
+    /* display: none; */
+    display: grid;
+    width: 100%;
+    max-width: 100px;
+    /* position: absolute; */
+    /* margin: 0 auto; */
+    background-color: rgb(235, 242, 254);
+    /* top: 7rem; */
+    /* right: 65rem; */
+    /* width: 100px; */
+    height: 40px;
+    border-radius: 7px;
+    align-self: center;
+    margin-right: -1rem;
+    
+}
+.entry{
+    display: flex;
+    color:rgb(0, 136, 255);
+    /* position: absolute; */
+    /* top: 19%; */
+    /* left: 22%; */
+    margin-top: -2rem;
+    margin-right: 1rem;
+}
+
+.signin{
+    /* display: none; */
+    display: grid;
+    width: 100%;
+    max-width: 100px;
+    /* position: absolute; */
+    /* margin: 0 auto; */
+    background-color:rgb(0, 140, 255);;
+    /* top: 7rem; */
+    /* right: 70.5rem; */
+    /* width: 100px; */
+    height: 40px;
+    border-radius: 7px;
+    align-self: center;
+    margin-right: -2rem;
+    
+
+}
+.sign{
+    display: grid;
+    color:rgb(252, 252, 252);
+    /* position: absolute; */
+    /* top: 19.2%; */
+    /* left: 14.5%; */
+    font-size: 14px;
+    margin-top: -1.8rem;
+    margin-left: 1.5rem;
+}
+ .logoSign{
+    display: flex;
+    color: rgb(236, 14, 14);
+    margin: 9% 50% 0 0;
+ }
+
+ #nav{
+    display: grid;
+    width: 92%;
+    max-width: 1300px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 0 auto; */
+    background-color: rgb(208, 212, 220);
+    border-radius: 0 0 15px 15px;
+    grid-template-columns: 30% 50% 20%;
+}
+
+#meno{
+    display: flex;
+    /* display:flex; */
+    list-style-type: none;
+    width: 1000px;
+    gap: 2.5rem;
+    padding-right: 11rem;
+    margin-top: 12px;
+    
+}
+.item{
+    color: black;
+    font-weight: bold;
+}
+
+#parent{
+    display: inline-block;
+    /* position: relative; */
+}
+
+.icon-list-course{
+    margin-right: 2px;
+}
+
+.course{
+    cursor: pointer;
+}
+
+#course{
+    display: flex;
+    flex-wrap:wrap;
+    position:absolute;
+    width: 500px;
+    height: 520px;
+    top: 14rem;
+    right: 22rem;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    margin-trim: block;
+
+}
+
+.courses{
+    display: flex;
+    width: 220px;
+    height: 100px;
+    margin-right: 1.3rem;
+    margin-top: 1rem;
+
+}
+.courses:hover{
+    display: inline-flex;
+    background-color: rgb(207, 207, 207 , 0.2);
+    border-radius: 5px;
+    
+    
+}
+
+.icon-course{
+    display: grid;
+    font-size: 20px;
+    margin-top:1rem;
+    margin-right: 0.7rem;
+    color: rgb(0, 147, 233);
+}
+.edu-course{
+    color: rgb(65, 65, 65);
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+
+}
+.list-course{
+    color: rgb(143, 139, 139);
+    width: 150px;
+    margin-top: 3rem;
+    margin-right: -7rem;
+    text-align: right;
+    font-size: small;
+}
+
+
+
+ .masir{
+    display: flex;
+    width: 220px;
+    height: 100px;
+    margin-right: 1.3rem;
+    margin-top: 1rem;
+
+}
+.masir:hover{
+    display: inline-flex;
+    background-color: rgb(207, 207, 207 , 0.2);
+    border-radius: 5px;
+    
+}
+
+.icon-masir{
+    display: grid;
+    font-size: 20px;
+    margin-top:1rem;
+    margin-right: 0.5rem;
+    color: rgb(226, 0, 19);
+}
+.edu-masir{
+    color: rgb(65, 65, 65);
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+
+}
+.dev-masir{
+    color: rgb(143, 139, 139);
+    width: 170px;
+    margin-top: 3rem;
+    margin-right: -7.3rem;
+    text-align: right;
+    font-size: small;
+}
+
+
+.myProgress{
+    display: flex;
+    width: 220px;
+    height: 100px;
+    margin-right: 1.3rem;
+    margin-bottom: 20rem;
+}
+.myProgress:hover{
+    display: inline-flex;
+    background-color: rgb(207, 207, 207 , 0.2);
+    border-radius: 5px;
+    
+}
+
+.icon-myProgress{
+    display: grid;
+    font-size: 20px;
+    margin-top:1rem;
+    margin-right: 0.7rem;
+    color: darkviolet;
+}
+.My-myProgress{
+    color: rgb(65, 65, 65);
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+.list-myProgress{
+   color: rgb(143, 139, 139);
+    width: 170px;
+    margin-top: 3rem;
+    margin-right: -4.8rem;
+    text-align: right;
+    font-size: small;
+}
+
+ .coursesFree{
+    display: flex;
+    width: 220px;
+    height: 100px;
+    margin-right: 1.3rem;
+    /* margin-top: 0rem; */
+
+}
+.coursesFree:hover{
+    display: inline-flex;
+    background-color: rgb(207, 207, 207 , 0.2);
+    border-radius: 5px;
+    
+}
+
+.icon-coursesFree{
+    display: grid;
+    font-size: 20px;
+    margin-top:1rem;
+    margin-right: 0.5rem;
+    color: rgb(0, 255, 170);
+}
+.edu-coursesFree{
+    color: rgb(65, 65, 65);
+    margin-top: 1rem;
+    /* margin-right: 0.5rem; */
+    font-weight: bold;
+
+}
+.list-coursesFree{
+    color: rgb(143, 139, 139);
+    width: 170px;
+    margin-top: 3rem;
+    margin-right: -6.3rem;
+    text-align: right;
+    font-size: small;
+}
+
+
+.certificate{
+    display: flex;
+    position: absolute;
+    width: 230px;
+    height: 100px;
+    margin-right: 1.3rem;
+    top: 45%;
+    left: 50%;
+
+}
+.certificate:hover{
+    display: inline-flex;
+    background-color: rgb(207, 207, 207 , 0.2);
+    border-radius: 5px;
+    
+}
+
+.icon-certificate{
+    display: grid;
+    font-size: 20px;
+    margin-top:1rem;
+    margin-right: 0.7rem;
+    color: darkblue;
+}
+.edu-certificate{
+    color: rgb(65, 65, 65);
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    font-weight: bold;
+    width: 150px;
+}
+.list-certificate{
+   color: rgb(143, 139, 139);
+    width: 170px;
+    margin-top: 3rem;
+    margin-right: -8rem;
+    text-align: right;
+    font-size: small;
+}
+
+.pointer-hand{
+    cursor: pointer;
+}
+#hr{
+    width: 470px;
+    height: 1px;
+    background-color: rgb(233, 233, 233,0.4);
+    margin-top: -12rem;
+    margin-right: 1rem;
+}
+
+.popular{
+    /* display: flex; */
+    width: 450px;
+    height: 140px;
+    background-color: rgb(236, 238, 238,0.5);
+    margin-top: -11rem;
+    margin-right: 1.5rem;
+    border-radius: 13px;
+}
+.text-popular{
+    display:grid;
+    margin: 10px;
+    font-weight: bold;
+    text-align: start;
+}
+.edu-popular{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 0.5rem;
+    margin-right: 0.5rem;
+}
+.edu-js{
+    background-color: rgb(150, 150, 150);
+    color: aliceblue;
+    font-size:14px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.edu-laravel{
+    background-color: rgb(150, 150, 150);
+    color: aliceblue;
+    font-size:14px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.edu-wp{
+    background-color: rgb(150, 150, 150);
+    color: aliceblue;
+    font-size:14px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.edu-react{
+    background-color: rgb(150, 150, 150);
+    color: aliceblue;
+    font-size:14px;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+.dark-gray:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+/* ========= Media-Query =============
+====================================== */
+
+@media (max-width: 1348px){
+
+    header{
+        display: grid;
+        /* text-align: ; */
+        margin-bottom: 18rem;
+        
+    }
+    
+    
+    #container{
+        display: grid;
+        /* position: ; */
+        max-width: 1200px;
+        max-height: 120px;
+        margin:0 auto;
+        background-color: white;
+        border-radius: 15px;
+        grid-template-columns: 30% 50% 20%;
+    }
+    
+    /* #react{
+        color: deepskyblue;
+        //text-align: center;
+        text-align: center;
+    
+    } */
+    
+    .logo{
+        max-width: 600px;
+        width: 60%;
+        max-height: 200px;
+        align-self: center;
+    }
+    
+    input#search-box{
+        display: grid;
+        justify-content: center;
+        position: absolute;
+        max-width: 580px;
+        max-height: 50px;
+        background-color: rgb(236, 238, 239);
+        border-radius: 10px;
+        border: 0;
+        padding-right: 3rem;
+        top:4.2rem;
+        right: 21rem;
+        
+    }
+    
+    #search-box::placeholder{
+        font-size: medium;
+        color: rgb(120, 134, 153);
+        font: 1em sans-serif;
+    }
+    
+    .search-icon{
+        position: absolute;
+        top: 5.2rem;
+        right: 22.2rem;
+    }
+    
+    #H{
+        color:deeppink;
+    }
+    
+    .pageMode{
+        margin: 0 auto;
+        position: absolute;
+        top: 4.2rem;
+        right: 60rem;
+        max-width: 3rem;
+        max-height: 3rem;
+        border-radius: 35px;
+        background-color: rgb(236, 238, 239);
+    }
+    
+    .pageMode:hover{
+        background-color: rgb(12, 12, 12);
+    }
+    .login{
+        position: absolute;
+        margin: 0 auto;
+        background-color: rgb(235, 242, 254);
+        top: 4.2rem;
+        right: 64rem;
+        max-width: 100px;
+        width: 60%;
+        max-height: 40px;
+        border-radius: 8px;
+    
+    }
+
+    .entry{
+        color:rgb(0, 136, 255);
+        position: absolute;
+        top: 6%;
+        left: 55%;
+    }
+    
+    .signin{
+        /* display: none; */
+        display: grid;
+        max-width: 100px;
+        width: 60%;
+        position: absolute;
+        margin: 0 auto;
+        background-color:rgb(0, 140, 255);;
+        top: 4.2rem;
+        right: 69.5rem;
+        /* width: 100px; */
+        max-height: 40px;
+        border-radius: 7px;
+    
+    }
+    .sign{
+        color:rgb(255, 255, 255);
+        position: absolute;
+        top:12%;
+        left: 44%;
+        font-size: 14px;
+    }
+     .logoSign{
+        display: flex;
+        color: rgb(236, 14, 14);
+        margin: 9% 50% 0 0;
+     }
+    
+    
+}

@@ -1,0 +1,206 @@
+
+#Course{
+    background-color:#ffffffff;
+    width:300px;
+    height:430px;
+    border-radius:8px;
+    margin-top:2.7rem;
+    /* fontFamily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+/* .image-container {
+   width: 300px;             اندازه مشخص برای قاب عکس
+   height: 200px;
+  overflow: hidden;
+  position: relative;
+} */
+
+/* .image-container{
+    /* overflow: hidden; */
+
+    /* position: relative; 
+    width: 95%;
+} */
+
+ /* .image-container img {
+  /* height: 75%; 
+    width: 80%;
+    border-radius: 8px; 
+    object-fit: cover;
+    height: 160px;
+    transform: translate(0, -2.7rem);
+    transition: transform 0.3s ease;
+    /* overflow: hidden;
+    /* position: relative;
+    /* margin-top: -2rem;
+} */
+
+/* .image-container:hover img {
+  transform:scaleX(1.1) /*scaleY(1.1);
+  cursor: pointer;
+} */
+
+
+.img-card{
+    width: 90%;
+    border-radius: 8px; 
+    object-fit: cover;
+    height: 160px;
+    transform: translate(0, -2.7rem);
+    
+}
+
+.img-card:hover{
+  /* --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x),
+  var(--tw-translate-y)) 
+  /* rotate(var(--tw-rotate))  */
+  /* skewX(var(--tw-skew-x))  */
+  /* skewY(var(--tw-skew-y))  */
+  /* scaleX(var(--tw-scale-x))  */
+  /* scaleY(var(--tw-scale-y)); */
+    transition: all 1.5s ease-in-out;
+    transform:translate(0,-27%) rotateY(360deg) rotateX(-360deg); 
+    cursor: pointer;
+}
+
+.course-mode-card{
+    display:flex;
+    justify-content:start;
+    margin:-2rem 1.5rem 0 0;
+    font-size:12px;
+    color:rgb(59, 130, 246);
+    font-weight:bold;
+}
+
+.fa-circle.blue{
+    font-size:6.4px;
+    transform:translate(6px, 8px);
+    color:rgb(59, 130, 246);
+}
+
+.titr-card{
+    margin: 0.5rem 1.2rem 8px 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    text-align:start;
+}
+
+.titr-card:hover{
+    color:rgb(59, 130, 246);
+    cursor: pointer;
+}
+
+
+.description-card{
+    color: rgb(137, 144, 153);
+    font-size: 12.9px;
+    min-height: 120px;
+    text-align:start ;
+    margin-right: 1.2rem;
+}
+
+.info-course-card{
+    display: grid;
+    grid-template-columns: 31% 20% 50%;
+    /* justify-content: center; */
+    align-items: center;
+    /* display: flex; */
+    margin-top: 0.5rem;
+
+
+}
+
+.time-course{
+    display: inline;
+    color: rgb(115, 133, 163);
+    background-color: rgb(227, 230, 236);
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.fa-dot-circle.time{
+    margin-left: 0.2rem;
+}
+
+.btnLike-course{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 0.2rem;
+    /* display: flex; */
+    background-color: rgb(253, 226, 226);
+    color: rgb(255, 0, 0);
+    border: none;
+     /* ---------------padding: 10px 16px; */
+    border-radius: 4px;
+    
+    font-Size: 11px;
+    margin-top: 9px;
+    width: 45px;
+    height: 25px;
+     /* ---------------------line-height: -90px;  */
+    margin-right: 0.7rem;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    justify-items:center;
+    align-content: center;
+    
+}
+
+.btnLike-course:hover{
+    background-color: rgb(214, 0, 0);
+    color: aliceblue;
+    /* cursor: pointer; */
+}
+
+.fa-heart.red{
+    margin-left: 3px;
+    margin-right: -4px;
+    margin-top: 0px;
+}
+
+.price-course-card{
+    
+    text-align: end;
+    margin-left: 0.5rem;
+    font-size: 18px;
+    color: rgb(59, 130, 246);
+    font-weight: bold;
+    margin-top: 0.5rem;
+    
+}
+
+#hr-card{
+    width: 317px;
+    height: 1px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 0.5rem;
+}
+
+.infoMore-see-course{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+
+.more{
+    line-height: 3rem;
+    color: rgb(59, 130, 246);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.more:hover{
+    color: black;
+}
+
+/* .fa-reply.blue{
+    color: rgb(59, 130, 246);
+} */
+

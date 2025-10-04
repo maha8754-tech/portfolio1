@@ -1,0 +1,214 @@
+/* * {
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; 
+  } */
+
+#footer{
+    display: grid;
+    margin-top: 3rem;
+}
+
+.logo-social{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.logo-footer{}
+
+.hr-footer{
+    width: 620px;
+    height: 1px;
+    background-color: rgb(230, 230, 230);
+    margin-top: 2rem;
+    margin-right: -7rem;
+}
+
+#social-eng{
+    display: flex;
+    gap: 1rem;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-facebook{
+    display: flex;
+    background-color: rgb(243, 247, 254);
+    padding: 15px;
+    /* width: 40px;
+    height: 40px; */
+    text-align: center;
+    font-size: 20px;
+    
+}
+.fa-twitter{
+    display: flex;
+    background-color: rgb(243, 247, 254);
+    padding: 15px;
+    /* width: 40px;
+    height: 40px; */
+    text-align: center;
+    font-size: 20px;
+}
+.fa-google{
+    display: flex;
+    background-color: rgb(243, 247, 254);
+    padding: 15px;
+    /* width: 40px;
+    height: 40px; */
+    text-align: center;
+    font-size: 20px;
+}
+.fa-linkedin{
+    display: flex;
+    background-color: rgb(243, 247, 254);
+    padding: 15px;
+    /* width: 40px;
+    height: 40px; */
+    text-align: center;
+    font-size: 20px;
+}
+.fa-youtube{
+    display: flex;
+    background-color: rgb(243, 247, 254);
+    padding: 15px;
+    /* width: 40px;
+    height: 40px; */
+    text-align: center;
+    font-size: 20px;
+}
+
+.fa:hover{
+    background-color: rgb(59, 130, 246);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+
+.quick-access{
+    display: grid;
+    grid-template-columns: 35% 15% 25% 25%;
+}
+
+.about-roocket{}
+
+.text-about{
+    text-align: start;
+}
+
+.info-roocket{}
+
+.p-roocket{
+    text-align: justify;
+    font-size: 14.8px;
+    line-height: 1.8;
+    width: 360px;
+    color: rgb(141, 153, 170);
+}
+
+.see-info-course{
+    display: flex;
+    justify-self: start;
+    font-size: 13px;
+    color: rgb(59, 130, 246)
+}
+
+.see-info-course:hover{
+    color: black;
+}
+
+.fa-reply.blue-mini{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.sections-site{}
+
+.text-section{
+    /* text-align: center; */
+}
+
+#sections{
+    list-style-position: inside;
+    text-align: justify;
+    /* display: flex; */
+    margin-right: -0.8rem;
+    line-height: 2.2;
+    color: rgb(141, 153, 170);
+    /* background-color: aqua; */
+    /* color: aliceblue; */
+}
+
+.li-footer{
+    color: rgb(129, 141, 156);
+    font-size: 15px;
+}
+
+.li-footer:hover{
+    color: black;
+}
+
+.role{}
+
+.teacher{}
+
+.about-us{}
+
+.support-us{}
+
+.populer-courses{}
+
+.text-populer{}
+
+#populer{
+    list-style-position: inside;
+    text-align: justify;
+    margin-right: 1.5rem;
+    line-height: 2.2;
+}
+
+
+
+
+
+.supports-enamad{
+    text-align: start;
+}
+
+.text-support{
+    text-align: start;
+}
+
+#support{
+    
+    list-style-position: inside;
+    /* text-align: justify; */
+    margin-left: -1.5rem;
+    line-height: 3;
+    /* justify-content: space-between; */
+    
+}
+
+.E-mail , .username-eitta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy-hr{
+    display: flex;
+}
+
+.copy-right{
+    text-align: start;
+    font-size: 10.5px;
+    color: rgb(141, 153, 170);
+}
+
+#hr-footer{
+    width: 450px;
+    height: 1px;
+    background-color: rgb(230, 230, 230);
+    margin-top: 1.3rem;
+    margin-right: 5rem;
+}

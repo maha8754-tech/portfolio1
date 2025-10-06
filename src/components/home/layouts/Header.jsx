@@ -4,7 +4,7 @@ import {useState} from "react"
 import './Header.css'
 // import Corse from "../../../Corse";
 // import Home from "../../../Home";
-import logoHeader from './src/images/roocket.jpg'
+import logoHeader from './images/roocket.jpg'
 
 
 export default function Header(){

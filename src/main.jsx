@@ -10,11 +10,12 @@ import Corse from "./Corse.jsx";
 createRoot(document.getElementById('root')).render(
   //  <StrictMode>
   <Router basename="/portfolio1/">
-      <Routes>
+    <Home/>
+      {/* <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/corses" element={<Corse/>} />
-          {/* <Route path="/about"  /> */}
-       </Routes>
+          {/* <Route path="/about"  />
+       </Routes> */}
   </Router>
     // <App />
     // <Home />

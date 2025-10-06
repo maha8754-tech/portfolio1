@@ -9,7 +9,7 @@ import Corse from "./Corse.jsx";
 
 createRoot(document.getElementById('root')).render(
   //  <StrictMode>
-  <Router>
+  <Router basename="/portfolio1/">
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/corses" element={<Corse/>} />

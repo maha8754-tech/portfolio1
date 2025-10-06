@@ -5,11 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/portfolio1/',
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-      '@images': path.resolve(__dirname, './src/images'),
-      '@components': path.resolve(__dirname, './src/components'),
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     '@': path.resolve(__dirname, './src'),
+  //     '@images': path.resolve(__dirname, './src/images'),
+  //     '@components': path.resolve(__dirname, './src/components'),
+  //   },
+  // },
 })

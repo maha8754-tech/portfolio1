@@ -4,6 +4,7 @@ import {useState} from "react"
 import './Header.css'
 // import Corse from "../../../Corse";
 // import Home from "../../../Home";
+import logoHeader from /src/images/roocket.jpg
 
 
 export default function Header(){
@@ -26,7 +27,7 @@ export default function Header(){
                 </div> */}
                 <div id="container">
                     {/* <h3 id='react'>react js</h3> */}
-                    <img className='logo' src="./src/images/roocket.jpg" alt="logoRoocket" />
+                    <img className='logo' src={logoHeader} alt="logoRoocket" />
                     <input type="search" name="java" id="search-box" placeholder='دنبال چی میگردی؟'/>
                     <i className="search-icon fas fa-search"></i>
                     <button className='pageMode' title='بر اساس سیستم شما'>

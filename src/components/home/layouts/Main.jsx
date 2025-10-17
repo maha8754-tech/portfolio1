@@ -14,7 +14,7 @@ import './Main.css'
 import CardCourse from './CardCourse'
 import CardArticle from './CardArticle';
 import welcome from '../../../images/welcome.png'
-import arrow from '../../../images/Arrow.png'
+// import arrow from '../../../images/Arrow.png'
 import corseAI from '../../../images/courseAI.png'
 import pLaravel from '../../../images/project-laravel.jpg'
 import docker from '../../../images/docker.jpg'

@@ -5,7 +5,7 @@ import './Header.css'
 // import Corse from "../../../Corse";
 // import Home from "../../../Home";
 import logoHeader from '../../../images/roocket.jpg'
-
+import dl from '../../../images/dark_mode.jpg'
 
 export default function Header(){
 
@@ -31,7 +31,7 @@ export default function Header(){
                     <input type="search" name="java" id="search-box" placeholder='دنبال چی میگردی؟'/>
                     <i className="search-icon fas fa-search"></i>
                     <button className='pageMode' title='بر اساس سیستم شما'>
-                        <img className='darkOlight' src="./src/images/dark_mode.jpg" alt="darkmode" />
+                        <img className='darkOlight' src={dl} alt="darkmode" />
                     </button>
                     <div className='login'>
                         <a href="">

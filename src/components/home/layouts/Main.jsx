@@ -13,6 +13,21 @@ import 'swiper/css/pagination';
 import './Main.css'
 import CardCourse from './CardCourse'
 import CardArticle from './CardArticle';
+import welcome from '.../.../.../images/welcome.png'
+import arrow from '.../.../.../images/Arrow.png'
+import corseAI from '.../.../.../images/courseAI.png'
+import pLaravel from '.../.../.../images/project-laravel.jpg'
+import docker from '.../.../.../images/docker.jpg'
+import pachim from '.../.../.../images/pachim.jpg'
+import eloquent from '.../.../.../images/eloquent-laravel.jpg'
+import cLaravel from '.../.../.../images/course-laravel.jpg'
+import css from '.../.../.../images/css.jpg'
+import webDesign from '.../.../.../images/web-design.jpg'
+import web from '.../.../.../images/web.jpg'
+import js from '.../.../.../images/js.png'
+import laravelLogo from '.../.../.../images/laravel-logo.png'
+import php from '.../.../.../images/php.png'
+import reactLogo from '.../.../.../images/react-logo.png'
 // import Corse from "../../../Corse";
 // import CardRoute from './CardRoute'
 
@@ -61,11 +76,11 @@ export default function Main(){
               </div>
               </div>
               <div className='icon-gif'>
-              <img className='img-welcome' src="./src/images/welcome.png" alt="" />
+              <img className='img-welcome' src={welcome} alt="" />
               </div>
             </div>
             <div className='arrow-next'>
-              <img src="./src/images/Arrow.png" alt="" />
+              <img src={arrow} alt="" />
             </div>
             <div className='last-course-see'>
               <h3 className='text-last-course'>
@@ -83,7 +98,7 @@ export default function Main(){
             </div>
             <div className='courses-card-collection'>
               <CardCourse
-              image="./src/images/courseAI.png"
+              image={corseAI}
               sort="تکمیل ضبط"
               title="آموزش هوش مصنوعی برای برنامه نویسی"
               description="دوره آموزش هوش مصنوعی رایگان برای برنامه‌نویسان: تسلط بر ChatGPT، Copilot و Cursor IDE برای افزایش سرعت کدنویسی و توسعه پروژه‌های."
@@ -92,7 +107,7 @@ export default function Main(){
               />
 
               <CardCourse
-              image="./src/images/project-laravel.jpg"
+              image={pLaravel}
               sort="در حال برگزاری "
               title="آموزش پروژه‌های لاراولی"
               description="در این دوره پروژه محور لاراول، با ساخت ۱۰ پروژه واقعی مهارت‌های خود را در Laravel تقویت کنید! از احراز هویت چندگانه و مدیریت نقش‌ها تا چت زنده، سیستم..."
@@ -101,7 +116,7 @@ export default function Main(){
               />
 
               <CardCourse
-              image="./src/images/docker.jpg"
+              image={docker}
               sort="تکمیل ضبط"
               title="آموزش Docker"
               description="در دوره آموزش رایگان داکر، با مفاهیم اساسی Docker، ایجاد و مدیریت کانتینرها، Dockerfile، ایمیج‌ها و استقرار اپلیکیشن‌ها به صورت عملی و گام به گام آشنا..."
@@ -110,7 +125,7 @@ export default function Main(){
               />
 
               <CardCourse
-              image="./src/images/pachim.jpg"
+              image={pachim}
               sort="تکمیل ضبط"
               title="آموزش راه‌اندازی و مدیریت سرور و سایت‌ها"
               description="راه اندازی و مدیریت سرور ها و سایت با استفاده از پَچیم، سایت ها رو با یک کلیک بر روی سرورها مجازی و اختصاصی خود راه اندازی کنید و آن‌ها را به سادگی ..."
@@ -119,7 +134,7 @@ export default function Main(){
               />
 
               <CardCourse
-              image="./src/images/eloquent-laravel.jpg"
+              image={eloquent}
               sort="تکمیل ضبط"
               title="آموزش جامع Eloquent در لاراول"
               description="در دوره آموزش جامع Eloquent در لاراول از ابتدایی ترین مفاهیم تا مفاهیم پیشرفته تر و پیچیده مرتبط با Eloquent به شکل کاربردی و در قالب مثال ها و سناریو..."
@@ -128,7 +143,7 @@ export default function Main(){
               />
 
               <CardCourse
-              image="./src/images/course-laravel.jpg"
+              image={cLaravel}
               sort="تکمیل ضبط"
               title="آموزش لاراول"
               description="فریمورک لاراول یکی از محبوب‌ترین و بهترین فریمورک‌های حال حاضر برای زبان PHP است، آموزش لاراول راکت می‌تواند به شکل رایگان به شما لاراول را آموزش دهد."
@@ -137,7 +152,7 @@ export default function Main(){
               />
 
               <CardCourse
-              image="./src/images/css.jpg"
+              image={css}
               sort="تکمیل ضبط"
               title="آموزش CSS"
               description="آموزش کامل CSS به صورت کامل و البته رایگان هدفی‌ست که ما در این دوره آموزشی دنبال می‌کنیم. شما با مشاهده کامل این دوره یاد خواهید گرفت که در صفحات وبس..."
@@ -146,7 +161,7 @@ export default function Main(){
               />
 
               <CardCourse
-              image="./src/images/web-design.jpg"
+              image={webDesign}
               sort="در حال برگزاری"
               title="آموزش پروژه محور طراحی سایت"
               description="آموزش پروژه محور طراحی سایت به شما کمک می‌کند که به سادگی بتوانید پروژه‌های طراحی سایت خود را پیاده‌سازی کنید."
@@ -198,7 +213,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src='./src/images/web.jpg'/>
+                      <img className="img-route" src={web}/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره
@@ -223,7 +238,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src='./src/images/js.png'/>
+                      <img className="img-route" src={js}/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره
@@ -248,7 +263,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src='./src/images/laravel-logo.png'/>
+                      <img className="img-route" src={laravelLogo}/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره
@@ -273,7 +288,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src='./src/images/php.png'/>
+                      <img className="img-route" src={php}/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره
@@ -298,7 +313,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src='./src/images/react-logo.png'/>
+                      <img className="img-route" src={reactLogo}/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره

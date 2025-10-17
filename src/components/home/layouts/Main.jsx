@@ -81,7 +81,7 @@ export default function Main(){
               </div>
             </div>
             <div className='arrow-next'>
-              <img src={arrow} alt="" />
+              <img src="" alt="" />
             </div>
             <div className='last-course-see'>
               <h3 className='text-last-course'>
@@ -99,7 +99,7 @@ export default function Main(){
             </div>
             <div className='courses-card-collection'>
               <CardCourse
-              image={corseAI}
+              image=""
               sort="تکمیل ضبط"
               title="آموزش هوش مصنوعی برای برنامه نویسی"
               description="دوره آموزش هوش مصنوعی رایگان برای برنامه‌نویسان: تسلط بر ChatGPT، Copilot و Cursor IDE برای افزایش سرعت کدنویسی و توسعه پروژه‌های."
@@ -239,7 +239,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src={js}/>
+                      <img className="img-route" src=""/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره
@@ -264,7 +264,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src={laravelLogo}/>
+                      <img className="img-route" src=""/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره
@@ -289,7 +289,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src={php}/>
+                      <img className="img-route" src=""/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره
@@ -314,7 +314,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src={reactLogo}/>
+                      <img className="img-route" src=""/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره

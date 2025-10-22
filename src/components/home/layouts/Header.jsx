@@ -78,7 +78,7 @@ export default function Header(){
                                 {/* style={{ display: "inline-block", position: "relative" }}     */}
                                 <li className="item course " 
                                 onClick={togglePopup}
-                                ><a href="/portfolio1/corses">دوره های آموزشی</a>
+                                ><a href="/corses">دوره های آموزشی</a>
                                 <i className="icon-list-course fas fa-angle-down"></i>
                                 
                                 </li>

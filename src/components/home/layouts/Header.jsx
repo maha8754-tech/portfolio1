@@ -1,6 +1,6 @@
 // import { BrowserRouter as Router, Routes, Route, Link, Links } from "react-router-dom";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Link } from "react-router-dom"
+import { Link, Links } from "react-router-dom"
 import {useState} from "react"
 import './Header.css'
 // import Corse from "../../../Corse";
@@ -79,7 +79,7 @@ export default function Header(){
                                 {/* style={{ display: "inline-block", position: "relative" }}     */}
                                 <li className="item course " 
                                 onClick={togglePopup}
-                                ><link to="/corses">دوره های آموزشی</link>
+                                ><Links to="/corses"></Links>
                                     {/* <a href="#/corses">دوره های آموزشی</a> */}
                                 <i className="icon-list-course fas fa-angle-down"></i>
                                 

@@ -220,7 +220,7 @@ export default function Main(){
                 <SwiperSlide>
                   <div className="Route">
                     <div className='image-include'>
-                      <img className="img-route" src={webDesign} alt=""/>
+                      <img className="img-route" src={web} alt=""/>
                       <span className='include-course'>
                       <i className="fas fa-graduation-cap icon-include-course"></i>
                       شامل 9 دوره

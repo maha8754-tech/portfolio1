@@ -1,4 +1,5 @@
 import './Footer.css'
+import logo from '../../../images/roocket-foot.png'
 
 export default function Footer(){
 
@@ -6,7 +7,7 @@ export default function Footer(){
         <div id='footer' dir='rtl'>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div className='logo-social'> 
-                <img className='logo-footer' src="./src/images/roocket-foot.png" alt="logoRoocket" />
+                <img className='logo-footer' src={logo} alt="logoRoocket" />
                 <div className='hr-footer'></div>
                 <div id='social-eng'>
                     <a href="#" class="fa fa-facebook"></a>

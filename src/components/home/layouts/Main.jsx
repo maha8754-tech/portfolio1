@@ -381,7 +381,7 @@ export default function Main(){
                   <div className="slider-c">
                     <p className='text-c'>راکت شاید تنها ترین مجموعه در ایران باشد، که آموزش های کاربردی، بروز و پروژه محور متناسب با نیاز بازار داخلی و جهانی ارائه میده! دمتون گرم</p>
                     <div className='info-c'>
-                      <img className='img-c' src={arrow} alt="" />
+                      <img className='img-c' src={author1} alt="" />
                       <div className='specs'>
                         <span className='Full-Name'>مهدی علیپور</span>
                         <span className='skill'>کارآفرین ،طراح رفتار و مربی بین المللی</span>
@@ -394,7 +394,7 @@ export default function Main(){
                   <div className="slider-c">
                     <p className='text-c'>به واسطه فیلد کاری متفاوت، من تجربه استفاده از دوره ها راکت رو نداشتم ولی هر کدوم از بچه های تیم‌ فنی‌مون که یک دوره از مجموعه راکت تهیه کرده،‌ هم رضایت بالایی داشتند هم دوره ها براشون خیلی کاربردی بوده. تبریک میگم به حسام موسوی عزیز برای دوره های ارزشمندی که خلق کرده</p>
                     <div className='info-c'>
-                      <img className='img-c' src={arrow} alt="" />
+                      <img className='img-c' src={author1} alt="" />
                       <div className='specs'>
                         <span className='Full-Name'>وحید بهرامیان</span>
                         <span className='skill'>مدیر محصول ژاکت</span>

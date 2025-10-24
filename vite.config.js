@@ -12,4 +12,5 @@ export default defineConfig({
   //     '@components': path.resolve(__dirname, './src/components'),
   //   },
   // },
+  assetsInclude: ['**/*.{jpg,jpeg,png,gif,svg}', '**/*.PNG'],
 })

@@ -73,8 +73,9 @@ export default function Header(){
 
                         {/* <Link to="/corses"> */}
                     
-                            <div id="parent" onMouseEnter={() => setShowPopup(true)} 
-                                // onMouseLeave={() => setShowPopup(false)}
+                            <div id="parent" 
+                                 onMouseEnter={() => setShowPopup(true)} 
+                                 onMouseLeave={() => setShowPopup(false)}
                                 >
                                 {/* style={{ display: "inline-block", position: "relative" }}     */}
                                 <li className="item course " 

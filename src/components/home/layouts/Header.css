@@ -258,12 +258,12 @@ input#search-box{
     position:absolute;
     width: 500px;
     height: 520px;
-    /* top: 14rem; */
+    top: 14rem;
     right: 22rem;
     border-radius: 12px;
     background-color: rgb(255, 255, 255);
     margin-trim: block;
-    top: 100%; 
+    
     transform: translateY(15px);
     transition:transform 0.3s ease , anime 0.3s ease
     

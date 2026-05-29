@@ -263,14 +263,21 @@ input#search-box{
     border-radius: 12px;
     background-color: rgb(255, 255, 255);
     margin-trim: block;
-    top: 100%; opacity: 0;
-    visibility: hidden;
+    top: 100%; 
     transform: translateY(15px);
-    transition:
-    opacity 0.3s ease,
-    transform 0.3s ease,
-    visibility 0.3s;
+    transition:transform 0.3s ease , anime 0.3s ease
+    
 
+}
+@keyframe anime{
+    0%{
+    opacity: 0;
+    visibility:hidden;
+    }
+    100%{
+    opacity: 1;
+    visibility:visible;
+    }
 }
 
 .courses{

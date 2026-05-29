@@ -75,7 +75,7 @@ export default function Header(){
                     
                             <div id="parent" 
                                  onMouseEnter={() => setShowPopup(true)} 
-                                 onMouseLeave={() => setShowPopup(false)}
+                                //  onMouseLeave={() => setShowPopup(false)}
                                 >
                                 {/* style={{ display: "inline-block", position: "relative" }}     */}
                                 <li className="item course " 

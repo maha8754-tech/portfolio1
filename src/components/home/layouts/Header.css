@@ -258,11 +258,18 @@ input#search-box{
     position:absolute;
     width: 500px;
     height: 520px;
-    top: 14rem;
+    /* top: 14rem; */
     right: 22rem;
     border-radius: 12px;
     background-color: rgb(255, 255, 255);
     margin-trim: block;
+    top: 100%; opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s;
 
 }
 

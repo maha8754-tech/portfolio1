@@ -68,7 +68,7 @@ export default function Header(){
                     >
                         
                         <li className="item">
-                            <a href="/">راکت</a>
+                            <a href="#">راکت</a>
                         </li>
 
                         {/* <Link to="/corses"> */}
